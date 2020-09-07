@@ -1,0 +1,15 @@
+Các bước thực hiện:
+1. Tạo mảng, lấy input
+"get value from form input"
+
+document.getElementByID
+let name = document.getElementByID("name");
+...
+
+function signup(){
+    if(name.value == ""){
+        comfirm("Name cannot empty")
+    }
+}
+2. kiểm tra input
+3. Lưu dữ liệu

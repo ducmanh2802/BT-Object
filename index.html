@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form signup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-signup">
+      <form action="">
+        <ul>
+          <li>
+            <input type="userName" id="name" placeholder="UserName" />
+          </li>
+          <li>
+            <input type="age" id="age" placeholder="Age" />
+          </li>
+          <li>
+            <input type="Address" id="address" placeholder="Address" />
+          </li>
+          <li>
+            <input type="password" id="password" placeholder="Password" />
+          </li>
+          <li>
+            <input type="password" id="repass" placeholder="Retype Password" />
+          </li>
+          <li class="button-signup">
+            <button type="button" onclick="signup()">Sign Up</button>
+          </li>
+        </ul>
+      </form>
+      <form action="">
+        <ul>
+          <li>
+            <input type="userName" id="nameLogin" placeholder="UserName" />
+          </li>
+
+          <li>
+            <input type="password" id="passwordLogin" placeholder="Password" />
+          </li>
+
+          <li class="button-login">
+            <button type="button" onclick="login()">Log In</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
